@@ -6,7 +6,7 @@
 
 .side {
     width: 25%;
-    background-color: #696969;
+    background-color: #c0c0c0;
 	border-color: #000000;
 	border-style: solid;	
 	width: 300px;
@@ -17,8 +17,19 @@ h1 {
     size: 100px;
     margin: 5px;
     font-style: italic;
+    
 }
 
 h2 {
     margin: 5px;
+}
+
+p#world {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p#sentance {
+    margin: 10px;
 }
