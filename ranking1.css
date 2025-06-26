@@ -1,4 +1,28 @@
-h1 {
+.sidebar {
     font-style: italic;
-    color: red;
+    font-size: 19px ;
+    width:300px;
+    position:relative;
+    right: 44px;
+}
+
+.container{
+    border:1px solid black;
+    width: 150px;
+    padding: 50px;
+}
+
+.fontsize{
+    font-size: 10px ;
+}
+
+.wrapper {
+  display: flex; 
+  gap: 30px;      
+  padding: 20px;
+}
+
+.content {
+  flex: 1; 
+  padding: 20px;
 }
