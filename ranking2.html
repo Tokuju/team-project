@@ -8,11 +8,11 @@
     <body>
         <div class="container">
             <div class="side">
-                <h2>私の世界ランキング</h2>
+                <h2 id="Me">私の世界ランキング</h2>
                 <p id="world"><a href="http://127.0.0.1:3000/ranking3.html">世界編</a></p>
                 <ul>
                     <li>ユーラシア大陸</li>
-                    <li>アフリカ大陸
+                    <li>アフリカ大陸</li>
                     <li>北アメリカ大陸</li>
                     <li>南アメリカ大陸</li>
                     <li>オーストラリア大陸</li>
@@ -22,13 +22,69 @@
             <div class="body">
                 <h1>私の世界ランキング日本編！</h1>
                 <p id="sentance">ここでは私たちが選出した日本の絶景を紹介したいと思います！</p>
-                <h2>No.1 裏見の滝の絶景・鍋ヶ滝[熊本県]</h2>
+                
+                <h2 id="No">No.1 裏見の滝の絶景・鍋ヶ滝[熊本県]</h2>
                 <hr>
-                <img src="photo/裏見の滝の絶景・鍋ヶ滝.webp" alt="鍋ヶ滝の画像" width="250" height="250">
-                <p>熊本県阿蘇郡小国町にある高さ約10m、幅約20mの美しい滝です。火山活動によって形成された岩盤上から、水が「カーテン」のように流れ落ちる優雅で神秘的な景観が特徴です</p>
-                <a href="https://ogunitown.info/nabegataki">https://ogunitown.info/nabegataki</a>
-                <P></P>
-                <h2>No.2 </h2>
+                <div class="image-description">
+                    <img src="photo/裏見の滝の絶景・鍋ヶ滝.webp" alt="鍋ヶ滝の画像" width="500" height="300">
+                    <p id="describe">熊本県阿蘇郡小国町に位置する「鍋ヶ滝（なべがたき）」は、高さ約10メートル、幅約20メートルの美しい滝で、「水のカーテン」と称されるその姿が訪れる人々を魅了します。最大の特徴は、滝の裏側に回り込むことができる珍しい構造にあり、「裏見の滝」としても知られています。春には期間限定でライトアップが行われ、夏には涼を求める人々が多く訪れ、秋には紅葉との美しいコントラストが楽しめます。冬には水量が少なくなるものの、静かな佇まいがまた異なる魅力を放ちます。滝の周囲は整備されており、駐車場や遊歩道もあるため、観光地としてもアクセスしやすい点が魅力です。訪れる際は、足元が滑りやすいため歩きやすい靴を履いて行くのがオススメです。</p>
+                </div>
+                <table>
+                    <tr>
+                        <th>住所</th>
+                        <td>〒869-2502 熊本県阿蘇郡小国町黒渕</td>
+                    </tr>
+                    <tr>
+                        <th>アクセス</th>
+                        <td>JR豊肥本線阿蘇駅から産交バス杖立温泉行きで1時間、ゆうステーション下車、タクシーで15分、大分自動車道九重ICより約45分</td>
+                    </tr>
+                    <tr>
+                        <th>URL</th>
+                        <td><a href="https://ogunitown.info/nabegataki">https://ogunitown.info/nabegataki</td>
+                    </tr>
+                </table>
+
+                <h2>No.2 函館山[北海道]</h2>
+                <hr>
+                <div class="image-description">
+                    <img src="photo/1_The_night_view_from_Mt_Hakodate-1-14MB_aaskrh.webp" alt="函館山" width="500" height="300">
+                    <p id="describe">北海道函館市にある標高334メートルの函館山は、国内外から多くの観光客が訪れる絶景スポットです。特に山頂から望む夜景は「100万ドルの夜景」とも称され、世界三大夜景の一つとして有名です。市街地や津軽海峡を一望でき、夕暮れから夜にかけての景色は格別です。ロープウェイやバスで手軽にアクセスでき、昼は自然散策、夜は幻想的な夜景を楽しめる、函館観光には欠かせない名所です。</p>
+                </div>
+                <table>
+                    <tr>
+                        <th>住所</th>
+                        <td>〒040-0000 北海道函館市函館山</td>
+                    </tr>
+                    <tr>
+                        <th>アクセス</th>
+                        <td>函館駅前より市電で十字街か宝来町で下車、ロープウェイ山麓からロープウェイ山頂へ</td>
+                    </tr>
+                    <tr>
+                        <th>URL</th>
+                        <td><a href="https://www.visit-hokkaido.jp/spot/detail_10095.html">https://www.visit-hokkaido.jp/spot/detail_10095.html</a></td>
+                    </tr>
+                </table>
+
+                <h2>No.3 富士山[静岡県兼山梨県]</h2>
+                <hr>
+                <div class="image-description">
+                    <img src="photo/09_aboutfujisan.jpg" alt="富士山" width="500" height="300">
+                    <p id="describe">富士山は、標高3,776メートルを誇る日本一高い山で、静岡県と山梨県にまたがる活火山です。その美しい円錐形の姿は古くから日本の象徴とされ、多くの絵画や文学にも登場してきました。2013年には「信仰の対象と芸術の源泉」として世界文化遺産に登録され、国内外から多くの登山者や観光客が訪れています。山頂から見るご来光や、麓から望む景色は圧巻で、四季折々に違った表情を楽しむことができます。</p>
+                </div>
+                    <table>
+                    <tr>
+                        <th>所在地</th>
+                        <td>静岡県 富士宮市 裾野市 富士市 御殿場市 駿東郡小山町 山梨県 富士吉田市 南都留郡鳴沢村</td>
+                    </tr>
+                    <tr>
+                        <th>アクセス</th>
+                        <td>静岡県側には、富士宮口・御殿場口・須走口の3つのルートがあります。 富士宮ルートには、東海道新幹線三島駅もしくは新富士駅、JR東海道線富士駅、JR身延線富士宮駅から運行している登山バスを利用しましょう。</td>
+                    </tr>
+                    <tr>
+                        <th>URL</th>
+                        <td><a href="https://www.visit-hokkaido.jp/spot/detail_10095.html">https://www.visit-hokkaido.jp/spot/detail_10095.html</a></td>
+                    </tr>
+                </table>
             </div>
 
         </div>
