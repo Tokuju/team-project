@@ -7,7 +7,6 @@
 }
 
 .side {
-    width: 25%;
     background-color: #c0c0c0;
 	border-color: #000000;
 	border-style: solid;	
@@ -16,14 +15,18 @@
 }
 
 h1 {
-    size: 100px;
-    margin: 5px;
+    margin-top: 0px;
+    margin-left: 250px;
     font-style: italic;
     
 }
 
-h2 {
+h2#Me {
     margin: 5px;
+}
+
+h2#No {
+    margin-left: 10px;
 }
 
 p#world {
@@ -34,4 +37,31 @@ p#world {
 
 p#sentance {
     margin: 10px;
+    margin-left: 250px;
+}
+
+p#describe {
+    background-color: #cccccc;
+}
+
+th {
+    background-color: #cccccc;
+}
+
+td {
+    background-color: #eeeeee;
+}
+
+.image-description {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.image-description img {
+    flex-shrink: 0;
+}
+
+#describe {
+    max-width: 400px;
 }
