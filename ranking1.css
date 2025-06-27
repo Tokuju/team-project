@@ -1,16 +1,15 @@
-.sidebar {
-    font-style: italic;
-    font-size: 19px ;
-    width:300px;
-    position:relative;
-    right: 44px;
+.side {
+  width: 25%;
+  background-color: #c0c0c0;
+	border-color: #000000;
+	border-style: solid;	
+	width: 300px;
+	height: 1000px;
+  margin-top: 300px;
 }
 
-.container{
-    border:1px solid black;
-    width: 150px;
-    padding: 50px;
-}
+
+ 
 
 .fontsize{
     font-size: 10px ;
@@ -25,4 +24,11 @@
 .content {
   flex: 1; 
   padding: 20px;
+}
+
+.INIAD{
+  font-size: 30px;
+  position: relative;
+  top: -30px;
+  font-style: italic;
 }
