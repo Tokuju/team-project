@@ -10,7 +10,7 @@
     background-color: #c0c0c0;
 	border-color: #000000;
 	border-style: solid;	
-	width: 300px;
+	width: 500px;
 	height: 1000px;
 }
 
@@ -37,7 +37,7 @@ p#world {
 
 p#sentance {
     margin: 10px;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 p#describe {
@@ -64,4 +64,8 @@ td {
 
 #describe {
     max-width: 400px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
