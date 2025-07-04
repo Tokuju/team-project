@@ -5,54 +5,67 @@
     height: 200px;
     display: flex;
 }
+
 .side {
-    background-color: #C0C0C0;
-    border-color: #000000;
-    border-style: solid;
-    width: 300px;
-    height: 1000px;
+    background-color: #c0c0c0;
+	border-color: #000000;
+	border-style: solid;	
+	width: 500px;
+	height: 1000px;
 }
+
 h1 {
     margin-top: 0px;
     margin-left: 250px;
     font-style: italic;
+    
 }
+
 h2#Me {
     margin: 5px;
 }
+
 h2#No {
     margin-left: 10px;
 }
+
 p#world {
     margin: 10px;
     font-weight: bold;
     font-size: 20px;
 }
+
 p#sentance {
     margin: 10px;
-    margin-left: 250px;
+    margin-left: 150px;
 }
+
 p#describe {
-    background-color: #CCCCCC;
+    background-color: #cccccc;
 }
+
 th {
-    background-color: #CCCCCC;
+    background-color: #cccccc;
 }
+
 td {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
+
 .image-description {
     display: flex;
     align-items: flex-start;
     gap: 20px;
 }
+
 .image-description img {
     flex-shrink: 0;
 }
+
 #describe {
     max-width: 400px;
 }
 
-
-
-
+html {
+    scroll-behavior: smooth;
+}
